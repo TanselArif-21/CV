@@ -1,0 +1,114 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+\hyphenpenalty 1000
+
+% moderncv themes
+\moderncvtheme[blue,roman]{classic}                  % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+%\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+\setlength{\hintscolumnwidth}{2.5cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+ 
+% Hyperlinks
+%\usepackage{hyperref}								% to use hyperlinks
+\definecolor{moderncv-blue}{rgb}{0.22,0.45,0.70}
+\definecolor{moderncv-grey}{rgb}{0.55,0.55,0.55}
+\definecolor{moderncv-orange}{rgb}{0.95,0.55,0.15}
+\definecolor{moderncv-green}{rgb}{0.35,0.70,0.30}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}			% hyperlinks setup
+\AfterPreamble{\hypersetup{colorlinks,breaklinks,urlcolor=moderncv-blue, linkcolor=moderncv-blue}}
+
+% personal data
+\firstname{Tansel}
+\familyname{Arif}
+%\title{Cypriot}               % optional, remove the line if not wanted
+\address{37 All Saints Court, Didcot}{Oxfordshire OX11 7NG, U.K.}    % optional, remove the line if not wanted
+\phone{+44 (0)78 3591 1553}                    % optional, remove the line if not wanted
+%\mobile{+30 698 4385057}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{tansel.arif@live.co.uk}                      % optional, remove the line if not wanted
+\homepage{www.linkedin.com/in/tansel-arif-86264492} % optional, remove the line if not wanted
+%\photo[64pt][0.4pt]{picture}                         % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\section{Skills}
+\cvline{Programming}{TSQL, C++, C\#, Delphi, R}
+\cvline{General}{Numerical computing, Modeling and simulation of fluid mechanics and thermodynamics, Strong ad hoc problem solving}
+\cvline{Languages}{English (native), Turkish (fluent)}
+
+\section{Work and Teaching Experience}
+\cventry{2015 -- present}{FIS - Financial Consultant in Risk and Compliance}{}{UK}{}{\normalsize Previously SunGard Financial Systems. A vendor providing solutions to financial corporations in terms of risk and exposure management and financial regulatory compliance. My role mostly involves: 
+\begin{itemize}
+\item[-] Maintenance, optimisation and troubleshooting of test farms / servers / databases which clients use for test cases for product development using Delphi and T-SQL (Microsoft SQL Server).
+\item[-] Providing code changes and detailed instructions for the deployment of packages on to live banking systems
+\item[-] Finding and carrying out optimisations and fixes to these environments
+\item[-] Liaising and working with clients for the improvement and customisation of the product to suit their needs
+\item[-] Implementing code changes (Pascal/C\#) to improve or fix issues in calculation methodology/equations
+\item[-] Customisation of the user facing web code to suit the needs and requirements of users (Javascript/C\#)
+\item[-] Writing documentation for any new features provided for the client
+\item[-] Coding and producing independent support utilities to improve client satisfaction
+\item[-] Aiding fellow colleagues in any stopping issues they may have
+\end{itemize}}
+\cventry{2011 -- 2015}{Private tutor}{}{UK}{}{\normalsize On average 8-12 hours a week of private tuition in mathematics.}
+
+
+\section{Education}
+\cventry{2011 - 2015}{PhD in Materials Sience and Engineering}{Imperial College London}{UK}{}{\normalsize Supervisor: Dr. R. Qin}
+\cventry{2009 - 2010}{Masters in Mathematics (MSci First Class)}{Queen Mary University of London}{UK}{}{\normalsize Supervisor: Prof. P. Cameron}
+\cventry{2006 - 2009}{Bachelor's degree in Mathematics (First Class)}{Queen Mary University of London}{UK}{}{}
+{}
+\cventry{2005 - 2006}{Access to Science and Maths (60 credits at level 3, Modules: Maths, Physics, IT, Chemistry, Biology, English)}{Lewisham College}{UK}{}{}
+{}
+%\cvitem{}{
+%Modules: Quantum Field Theory, Advanced Quantum Field Theory, Symmetry and Particle Physics, Supersymmetry and Extra Dimensions, Solitons and Instantons, Research Review on Vortices in QFT.
+%}\vspace{0.1in}
+{}
+
+%%% WORK AND RESEARCH
+\section{Research Experience}
+\cventry{2011 -- present}{Imperial College London}{}{UK}{}{\normalsize The main focus during the course of my PhD research has been on the development of theory and code for the phase-field modelling and simulation of microstructures found in steel~\hyperref[refbain]{[1,2]} as well as the formation of van der Waals fluids using the smoothed particle hydrodynamics method. Given my interest in the prediction of general evolutionary phenomena, I have collaborated on cellular automata treatment for solidification~\hyperref[refmeas]{[3]}. My final results involve the development of tools in order to combine the capabilities of multiple models to deal with situations involving fluid flow, solidification and solid state phase transformations.}
+\cventry{2009 -- 2010}{Queen Mary University of London}{}{UK}{}{\normalsize I investigated the pure mathematical constructions of codes in coding theory. The work involved writing code and alternative proofs for some known codes.}
+
+\section{Awards and Professional Training}
+\cvline{August 2017}{Inferential Statistics - Inferential Statistics with R. [\href{http://www.coursera.org/account/accomplishments/verify/TF3UNZB67DGH}{Coursera-Certificate}]}
+\cvline{December 2016}{Front-End Web UI Frameworks and Tools - Bootstrap and Web Development. [\href{https://www.coursera.org/account/accomplishments/verify/BZVL5HSQNM3P}{Coursera-Certificate}]}
+\cvline{August 2016}{Valuation: Alternative Methods - Financial Valuation. [\href{https://www.coursera.org/account/accomplishments/verify/EDJA367YEEJ5}{Coursera-Certificate}]}
+\cvline{June 2012}{National Student Conference in Metallic Materials - Awarded best presentation prize for the presentation of PhD project. [\href{https://workspace.imperial.ac.uk/materials/Public/files/Imperial\%20College\%20Department\%20of\%20Materials\%20-\%20Newsletter\%20March\%202013\%20.pdf}{DepartmentLetters.pdf}]}
+\cvline{July 2009}{Queen Mary University of London - Awarded the Westfield Trust Prize for outstanding academic achievement,  [\href{http://www.maths.qmul.ac.uk/sites/default/files/3_General_Guidance.pdf}{Awards.pdf}]}
+\cvline{May 2006}{QCA Lewisham College - Gym, Exercise and Fitness Knowledge instructor.}
+\cvline{July 2005}{Lewisham College - Awarded enrichment certificate in peer mentoring.}
+
+\section{Talks, Posters \& Seminars}
+\cvline{June 2014}{Imperial summer seminar series - Talk ``A fundamental problem in computational steels processing''.}
+\cvline{December 2013}{International Conference on Processing \& Manufacturing of Advanced Materials - Poster ``A phase-field model for the formation of martensite and bainite'' [\href{http://www.thermec.org/template3s/login/pr-internal/Programme_Book_Final-optimised.pdf}{ThermecProgramme.pdf}]}
+\cvline{June 2012}{National Student Conference in Metallic Materials - Talk ``A phase-field model for martensite''.}
+
+\section{Interests and hobbies}
+\cvline{}{Bouldering, Advanced calisthenics (work in progress), Boxing, Football}
+
+\section{Publications \small{(\href{https://imperial.academia.edu/TanselArif/Papers}{\textsc{academia.edu}})}}
+\cvline{[1]}{T. T. Arif and R. S. Qin: \textit{A phase-field model for bainitic transformation}, Computational Materials Science \textbf{77} (2013) 230, [\href{http://www.sciencedirect.com/science/article/pii/S0927025613002164}{doi:10.1016/j.commatsci.2013.04.044}].\label{refbain}}
+\cvline{[2]}{T. T. Arif and R. S. Qin, \textit{A phase-field Model for the Formation of Martensite and Bainite}, Advanced Materials Research \textbf{922} (2014) 31, [\href{http://www.scientific.net/AMR.922.31}{doi:10.4028/www.scientific.net/AMR.922.31}].}
+\cvline{[3]}{Y. Zhao, D. Chen, M. Long, T. Arif and R. Qin, \textit{A three dimensional cellular automata model for dendrite growth with various crystallographic orientations during solidification}, Metallurgical and Materials Transactions B \textbf{45} (2014) 719, [\href{http://link.springer.com/article/10.1007/s11663-013-9960-3/fulltext.html}{doi:10.4028/www.scientific.net/AMR.922.31}].\label{refmeas}}
+\end{document}
