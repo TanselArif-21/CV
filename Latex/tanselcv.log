@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.8)  27 NOV 2017 22:11
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.8)  20 JAN 2018 16:50
 entering extended mode
-**C:/Users/User/Documents/Career/Latex/tanselcv.tex
-(C:/Users/User/Documents/Career/Latex/tanselcv.tex
+**C:/TempGitCV/CV/Latex/tanselcv.tex
+(C:/TempGitCV/CV/Latex/tanselcv.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -807,7 +807,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `breaklinks' set `true' on input line 53.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 53.
 
-(C:\Users\User\Documents\Career\Latex\tanselcv.aux)
+(C:\TempGitCV\CV\Latex\tanselcv.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
@@ -908,8 +908,7 @@ LaTeX Info: Redefining \ref on input line 53.
 LaTeX Info: Redefining \pageref on input line 53.
 LaTeX Info: Redefining \nameref on input line 53.
 
-(C:\Users\User\Documents\Career\Latex\tanselcv.out)
-(C:\Users\User\Documents\Career\Latex\tanselcv.out)
+(C:\TempGitCV\CV\Latex\tanselcv.out) (C:\TempGitCV\CV\Latex\tanselcv.out)
 \@outlinefile=\write4
 \makecvtitledetailsbox=\box55
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 55.
@@ -965,46 +964,49 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Underfull \hbox (badness 1142) in paragraph at lines 113--113
+Underfull \hbox (badness 1142) in paragraph at lines 126--126
 []\T1/lmr/m/n/10.95 (+20) Y. Zhao, D. Chen, M. Long, T. Arif and R. Qin, \T1/lm
 r/m/it/10.95 (+20) A three di-men-sional cel-lu-
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 113--113
+Underfull \hbox (badness 1365) in paragraph at lines 126--126
 \T1/lmr/m/it/10.95 (+20) dur-ing so-lid-i-fi-ca-tion\T1/lmr/m/n/10.95 (+20) , M
 et-al-lur-gi-cal and Ma-te-ri-als Trans-ac-tions B \T1/lmr/bx/n/10.95 45 \T1/lm
 r/m/n/10.95 (+20) (2014) 719,
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
- (C:\Users\User\Documents\Career\Latex\tanselcv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
+ (C:\TempGitCV\CV\Latex\tanselcv.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `tanselcv.out' has not changed.
-(rerunfilecheck)             Checksum: AD0F5B5F1BD7B2D7950BF619C93876BA;1235.
+(rerunfilecheck)             Checksum: D2D258B8D7E533F7693CE080A388D373;928.
  ) 
 Here is how much of TeX's memory you used:
- 27612 strings out of 493921
- 510119 string characters out of 3144880
+ 27614 strings out of 493921
+ 509976 string characters out of 3144880
  568155 words of memory out of 3000000
  30491 multiletter control sequences out of 15000+200000
- 62232 words of font info for 76 fonts, out of 3000000 for 9000
+ 62315 words of font info for 77 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 69i,12n,58p,10397b,341s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/l
-mr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on tanselcv.pdf (2 pages, 223385 bytes).
+ 69i,12n,58p,10382b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmm
+i8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/lm/lmro10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/marvosym/marvosym.pfb>
+Output written on tanselcv.pdf (2 pages, 224980 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
+ 108 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
  20557 words of extra memory for PDF output out of 20736 (max. 10000000)
 
