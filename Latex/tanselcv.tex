@@ -3,9 +3,10 @@
 \hyphenpenalty 1000
 
 % moderncv themes
-\moderncvtheme[blue,roman]{classic}                  % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[blue,roman]{classic}                  % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
 %\moderncvtheme[green]{classic}                % idem
-
+\moderncvstyle{classic}
+\moderncvcolor{blue}  
 % character encoding
 %\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
 
@@ -53,7 +54,7 @@
 \begin{document}
 \maketitle
 \section{Skills}
-\cvline{Programming}{TSQL, C++, C\#, Delphi, R}
+\cvline{Programming}{T-SQL, C++, C\#, R}
 \cvline{General}{Numerical computing, Modeling and simulation of fluid mechanics and thermodynamics, Strong ad hoc problem solving}
 \cvline{Languages}{English (native), Turkish (fluent)}
 
@@ -66,14 +67,12 @@
 %\cventry{2005 - 2006}{Access to Science and Maths (60 credits at level 3, Modules: Maths, Physics, IT, Chemistry, Biology, English)}{Lewisham College}{UK}{}{}
 
 \section{Work and Teaching Experience}
-\cventry{2017 -- present}{FIS (SunGard) - Quantitative Consultant}{}{UK}{}{\normalsize Previously SunGard Financial Systems. A vendor providing solutions to financial corporations in terms of risk and exposure management and financial regulatory compliance. 
+\cventry{2017 -- present}{FIS (SunGard) - Quantitative Consultant}{}{UK}{}{\normalsize
 Responsibilities: 
 \begin{itemize}
-\item[-] Finding and carrying out optimisations and fixes to deal valuation methodologies.
-\item[-] Implementing customisations to analytical software.
-\item[-] Providing explanations for the calculations used in our in-house software.
-\item[-] Acting as a conduit between the client, the development team and the theoretical material.
-\item[-] Resolving any blocks in the progress of client requests.
+\item[-] Specification and implementation of mathematical models using C\# for the efficient pricing of complex financial products, for the evolution of future market and credit events and for the calibration of risk models.
+\item[-] Verifying that new and existing models are correct and appropriate.
+\item[-] Providing client support on questions related to software behaviour.
 \end{itemize}}
 
 \cventry{2015 -- 2017}{FIS (SunGard) - Consultant, Risk and Compliance}{}{UK}{}{\normalsize Previously SunGard Financial Systems. A vendor providing solutions to financial corporations in terms of risk and exposure management and financial regulatory compliance. Responsibilities: 
@@ -90,6 +89,7 @@ Responsibilities:
 \end{itemize}}
 \cventry{2011 -- 2015}{Private tutor}{}{UK}{}{\normalsize On average 8-12 hours a week of private tuition in mathematics.}
 
+\newpage
 
 %%% WORK AND RESEARCH
 \section{Research Experience}
